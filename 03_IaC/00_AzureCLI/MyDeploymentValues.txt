@@ -1,5 +1,5 @@
 botSubDomain=https://yellow-field-0c0d3a003.3.azurestaticapps.net
 botName=RecordingBotPre
-projectPrefix=recording-bot-rg
+projectPrefix=recording-bot
 azureLocation=westeurope
 acrName=recordingbotpreacr
