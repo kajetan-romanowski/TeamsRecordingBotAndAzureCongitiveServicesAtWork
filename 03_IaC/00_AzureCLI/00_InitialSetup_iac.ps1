@@ -12,7 +12,7 @@
 $botSubDomain = $env:botSubDomain
 $azureLocation = $env:azureLocation
 $projectPrefix = $env:projectPrefix
-$resourceGroupName = $projectPrefix +"_rg"
+$resourceGroupName = $projectPrefix +"-rg"
 $acrName = $env:acrName
 $publicIpName = "myRecBotPublicIP"
 
