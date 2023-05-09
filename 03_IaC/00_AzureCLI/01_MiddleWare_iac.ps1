@@ -1,7 +1,7 @@
 # Helping variables
 $azureLocation = $env:azureLocation
 $projectPrefix = $env:projectPrefix
-$resourceGroupName = $projectPrefix +"_rg"
+$resourceGroupName = $projectPrefix +"-rg"
 $botSubDomain= $env:botSubDomain
 
 Write-Output "(Got from ENV): RG: $resourceGroupName location: $azureLocation"
