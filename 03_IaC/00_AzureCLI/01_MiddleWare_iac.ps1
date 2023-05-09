@@ -8,7 +8,7 @@ Write-Output "(Got from ENV): RG: $resourceGroupName location: $azureLocation"
 Write-Output "Environment Azure CL: $(az --version)"
 
 # Front End Storage Account
-$staticSiteStorage = $projectPrefix +"staticsite"
+$staticSiteStorage = "recordingbotstaticsite"
 
 # Cognitive Services Related Variables
 $textAnalyticsName = $projectPrefix +"TextAnalytics"
